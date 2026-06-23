@@ -25,7 +25,7 @@ export default function Navbar() {
     admin: [
       { name: "Home", path: "/" },
       { name: "Add Product", path: "/addproductitems" },
-      { name: "All Users", path: "/users" },
+      // { name: "All Users", path: "/users" },
     ],
   };
 
