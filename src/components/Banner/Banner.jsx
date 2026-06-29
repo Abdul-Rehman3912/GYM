@@ -17,7 +17,7 @@ const Banner = ({ image, title, subtitle, link }) => {
           />
         </div>
 
-        <div className="flex flex-col justifu-center text-center md:text-left space-y-4 lg:max-w-[500px]">
+        <div className="flex flex-col justify-center text-center md:text-left md:pl-10 space-y-4 lg:max-w-[500px]">
           <motion.p
             variants={SlideUp(0.5)}
             initial="hidden"
