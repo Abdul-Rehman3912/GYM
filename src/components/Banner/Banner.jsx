@@ -32,6 +32,7 @@ const Banner = ({ image, title, subtitle, link }) => {
             initial="hidden"
             whileInView={"visible"}
             viewport={{ once: true }}
+            className="text-justify"
           >
             {subtitle}
           </motion.p>
